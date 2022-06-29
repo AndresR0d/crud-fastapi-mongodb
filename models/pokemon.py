@@ -7,5 +7,5 @@ class Pokemon(BaseModel):
     dex_num : int
     name : str
     type1 : str
-    type2 : str 
+    type2 : Optional[str] 
     
