@@ -1,6 +1,6 @@
 def pokemonEntity(item) -> dict:
     return{
-        "id":item["id"],
+        "id":str(item["_id"]),
         "dex_num":["dex_num"],
         "name":item["name"],
         "type1":item["type1"],
